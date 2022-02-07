@@ -11,3 +11,10 @@ end
 get '/names' do
   "We are the coding massive"
 end
+ 
+get '/cat' do
+  "<div style = 'border: dashed red'>
+  <img src = 'https://i.imgur.com/jFaSxym.png'>
+  </div>"
+  
+end
